@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.divMain {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.divForm {
+    display: flex;
+    position: absolute;
+    /*border: 3px solid darkred;*/
+    width: 80vw; height: 60vh;
+    margin: 1% auto;
+    justify-content: center;
+}
+.h2Form {
+    display: flex;
+    position: absolute;
+    /*border: 2px solid darkolivegreen;*/
+    margin: .5%;
+    font-size: 30px;
+    left: 30%;
+}
+.divFormContenedor {
+    display: flex;
+    position: absolute;
+    /*border: 2px solid darkolivegreen;*/
+    bottom: 0;
+    width: 75vw; height: 52.5vh;
+    justify-content: center;
+}
+label, input {
+    display: flex;
+    position: absolute;
+    margin-top: 3%;
+}
+.lbl1 {
+    display: flex;
+    position: absolute;
+    left: 25%;
+    font-size: 22.5px;
+    font-weight: bold;
+}
+.ip1 {
+    display: flex;
+    position: absolute;
+    padding: .5% 1% .5% 1%;
+}
+.lbl2 {
+    display: flex;
+    position: absolute;
+    left: 25%; top: 10%;
+    font-size: 22.5px;
+    font-weight: bold;
+}
+.ip2 {
+    display: flex;
+    position: absolute;
+    width: 18.8%; height: 8.7%;
+    top: 19%;
+}
+option {
+    display: flex;
+    position: absolute;
+    width: 18.8%; height: 8.7%;
+}
+.lbl3 {
+    display: flex;
+    position: absolute;
+    left: 25%; top: 20%;
+    font-size: 22.5px;
+    font-weight: bold;
+}
+.ip3 {
+    display: flex;
+    position: absolute;
+    padding: .5% 1% .5% 1%;
+    top: 20%;
+}
+.lbl4 {
+    display: flex;
+    position: absolute;
+    left: 25%; top: 30%;
+    font-size: 22.5px;
+    font-weight: bold;
+}
+.ip4 {
+    display: flex;
+    position: absolute;
+    padding: .5% 1% .5% 1%;
+    top: 30%;
+}
+.lbl5 {
+    display: flex;
+    position: absolute;
+    left: 25%; top: 40%;
+    font-size: 22.5px;
+    font-weight: bold;
+}
+.ip5 {
+    display: flex;
+    position: absolute;
+    padding: .5% 1% .5% 1%;
+    top: 40%;
+}
+button {
+    display: flex;
+    position: absolute;
+    bottom: 15%; right: 45%;
+    padding: 1% 2% 1% 2%;
+    font-size: 22.5px;
+    font-weight: bold;
+}
+
+.divRetorno {
+    display: flex;
+    position: absolute;
+    bottom: 0; left: 10%;
+    /*border: 3px solid rgb(63, 158, 212);*/
+    justify-content: center;
+    width: 80vw; height: 30vh;
+}
+.h2Retorno {
+    display: flex;
+    position: absolute;
+    bottom: 125%; left: 37.5%;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.divParrafo {
+    display: flex;
+    position: absolute;
+    /*border: 2px solid darkolivegreen;*/
+    width: 80vw; height: 5vh;
+    bottom: 100%;
+    justify-content: center;
+}
+p {
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+}
+.pP1 {
+    left: 10%;
+}
+.pP2 {
+    left: 29.5%;
+}
+.pP3 {
+    left: 58.8%;
+}
+.pP4 {
+    left: 80%;
+}
+.divCuadro {
+    display: flex;
+    position: relative;
+    /*border: 2px solid darkviolet;*/
+    width: 80vw; height: 30vh;
+}
+.divLegajo {
+    display: flex;
+    position: absolute;
+    left: 3%;
+    width: 15vw; height: 5vh;
+    border: 2px solid rgb(63, 158, 212);
+    justify-content: center;
+}
+.divNyA {
+    display: flex;
+    position: absolute;
+    left: 21.5%;
+    width: 24.5vw; height: 5vh;
+    border: 2px solid rgb(63, 158, 212);
+    justify-content: center;
+}
+.divDNI {
+    display: flex;
+    position: absolute;
+    left: 51.9%;
+    width: 18vw; height: 5vh;
+    border: 2px solid rgb(63, 158, 212);
+    justify-content: center;
+}
+.divTelefono {
+    display: flex;
+    position: absolute;
+    left: 74.25%;
+    width: 15vw; height: 5vh;
+    border: 2px solid rgb(63, 158, 212);
+    justify-content: center;
+}
